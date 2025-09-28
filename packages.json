@@ -61,7 +61,8 @@
                 "xhost",
                 "xorg-x11-xauth",
                 "yubikey-manager",
-                "zstd"
+                "zstd",
+                "@virtualization"
             ],
             "silverblue": [
                 "adw-gtk3-theme",

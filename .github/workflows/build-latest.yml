@@ -18,15 +18,9 @@ jobs:
       fail-fast: false
       matrix:
         image_name:
-          - base
-          - kinoite
           - silverblue
-          - sway-atomic
-          - budgie-atomic
-          - cosmic-atomic
         image_variant:
           - main
-          - nvidia
     with:
       image_name: ${{ matrix.image_name }}
       image_variant: ${{ matrix.image_variant }}
